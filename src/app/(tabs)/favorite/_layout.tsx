@@ -10,7 +10,6 @@ export default function FavoriteLayout() {
       }}
     >
       <Stack.Screen name="index" options={{ title: "Favorite" }} />
-      <Stack.Screen name="[id]" options={{ title: "Details" }} />
     </Stack>
   );
 }

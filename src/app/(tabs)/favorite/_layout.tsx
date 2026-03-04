@@ -1,0 +1,16 @@
+import { Stack } from "expo-router";
+
+export default function FavoriteLayout() {
+  return (
+    <Stack
+      screenOptions={{
+        headerStyle: { backgroundColor: "#E3350D" },
+        headerTintColor: "#fff",
+        headerTitleStyle: { fontWeight: "bold" },
+      }}
+    >
+      <Stack.Screen name="index" options={{ title: "Favorite" }} />
+      <Stack.Screen name="[id]" options={{ title: "Details" }} />
+    </Stack>
+  );
+}
